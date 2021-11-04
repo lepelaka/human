@@ -17,6 +17,7 @@ public class CollectionEx {
 	private List<String> list;
 	private Map<String, Integer> map;
 	
+	
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("collection.xml");
 		
